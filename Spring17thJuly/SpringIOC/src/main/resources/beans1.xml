@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id="student" class="com.cjc.studentAddress.Student" autowire="byName">
+   <property name="name" value="CJC"></property>
+   <property name="age" value="23"></property>
+   </bean>
+   
+   <bean id="address" class="com.cjc.studentAddress.Address">
+   <property name="city" value="Pune"></property>
+   <property name="area" value="Akurdi"></property>
+   </bean>
+   
+   <bean id="address1" class="com.cjc.studentAddress.Address">
+   <property name="city" value="Mumbai"></property>
+   <property name="area" value="thane"></property>
+   </bean>
+   
+   
+  </beans>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <!-- <bean id="product" class="com.cjc.Product">
+   	<property name="name" value= "Mobile"></property>
+   	<property name="price" value="10.5f" ></property>
+   </bean> -->
+   
+   <!-- bean id="product1" class="com.cjc.Product">
+   <constructor-arg index="0" value ="TV">
+   </constructor-arg>
+   <constructor-arg index="1" ref ="1000.36f"></constructor-arg>
+   </bean> -->
+   
+   <bean id="beanscope" class="com.cjc.BeanScopeDemo" scope="singleton"></bean>
+
+</beans>
